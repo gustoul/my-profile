@@ -1,0 +1,41 @@
+body {
+	background-color: #f2f4b2;
+	color: #0c907d;
+	font-family: 'Bitter', serif;
+	font-size: 16px;
+}
+
+h1, h2, h3 {
+	color: #0d627a;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+background: white;
+    padding: 60px;
+    margin: 50px auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+@media (max-width: 500px) {
+	.alignement {
+		width: 400px;
+	}
+}
+
+/* Custom design with (99% of your design)*/
+.alignement {
+	width: 700px;
+    margin: 10px auto;
+}
+
+.center {
+	text-align: center;
+}
+
+#profil{
+	width: 100px; 
+	border-radius: 50px;
+}
+
